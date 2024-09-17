@@ -73,6 +73,7 @@
 # with open('emails.pickle', 'rb') as f:
 #     emails = pickle.load(f)
 # 
+# Verifying list of emails
 # emails=['nagarkarparth69123@hotmail.com',"nagarkarparth2201@yahoo.com","nagarkarparth@yahoo.co.in","kala69iyer@gmail.com","nagarkarparth@yahoo.com","harsha_nihar@yahoo.co.in"]
 # verify(emails)
 # print("--- %s seconds ---" % (time.time() - start_time))
