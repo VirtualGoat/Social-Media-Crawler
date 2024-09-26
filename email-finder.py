@@ -16,11 +16,11 @@ def formats(first, middle, last, domain):
     """
     Create a list of 30 possible email formats combining:
     - First name:          [empty] | Full | Initial |
-    - Delimeter:         [empty] |   .  |    _    |    -
+    - Delimeter:           [empty] |   .  |    _    |    -
     - Last name:           [empty] | Full | Initial |
     """
     list = []
-
+    #Email IDs
     if len(last)==0:
         list.append(first + '@' + domain)                    # first@example.com
 
